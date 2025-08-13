@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>The Dirty Bubble's Discord Page</title>
+</head>
+<body>
+
+  <!-- Rules Area -->
+  <main class="rules-area">
+    <img 
+      src="images/Discord.png" 
+      alt="Discord Logo" 
+      height="125" 
+      width="225" 
+      class="profile-icon" 
+      loading="lazy" 
+    />
+
+    <section class="rules-section">
+      <h2 class="rules-heading">
+        We don’t have many rules but<br>
+        the rules we have in place...<br>
+        we hope you follow ❤️
+      </h2>
+
+      <button class="submit-button">
+        <img src="images/submit-button/Submit-Button.jpg" alt="Submit" height="50" width="150" />
+      </button>
+
+      <ol class="rules-list">
+        <li>Please be RESPECTFUL</li>
+        <li>Don’t spam with nonsense</li>
+        <li>Don’t make someone cry. Don’t be a snowflake. If you get offended easily... this might not be for you.</li>
+        <li>No politics or arguing about politics in chats. Take it to DMs or elsewhere!</li>
+        <li>No harassment. If someone tells you to stop… STOP!</li>
+        <li>This server includes minors. Use NSFW channels responsibly.</li>
+        <li>We don’t have a filter. Speak your mind, but own it.</li>
+        <li>HAVE FUN 🎉</li>
+      </ol>
+    </section>
+  </main>
+
+  <!-- Video Section -->
+  <section class="video-container">
+    <h3>Watch Our Introduction Video</h3>
+    <video width="320" height="240" controls>
+      <source src="video/intro.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <button id="theme-toggle" class="theme-toggle">
+  <i class="fas fa-moon"></i>
+  </button>
+
+
+  <div class="main-layout">
+  <!-- Sidebar container -->
+  <aside class="sidebars">
+    <!-- Server Stats Sidebar -->
+    <section class="sidebar-section server-stats">
+      <h3 class="sidebar-title">Server Stats</h3>
+      <nav class="channel-list" role="navigation" aria-label="Server Stats">
+        <ul>
+          <li><a href="#">All-Members-60</a></li>
+          <li><a href="#">Members-53</a></li>
+          <li><a href="#">Lost-Bubbles</a></li>
+          <li><a href="#">Popped-Bubbles</a></li>
+          <li><a href="#">Bots-7</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- General Channels -->
+    <section class="sidebar-section general-channels">
+      <h3 class="sidebar-title">General Shit</h3>
+      <nav class="channel-list" role="navigation" aria-label="General Channels">
+        <ul>
+          <li><a href="#">*Welcome*</a></li>
+          <li><a href="#">Bubble-Blowers</a></li>
+          <li><a href="#">General-Chat</a></li>
+          <li><a href="#">Pets</a></li>
+          <li><a href="#">Photos-Videos</a></li>
+          <li><a href="#">About-You!</a></li>
+          <li><a href="#">NSFW</a></li>
+          <li><a href="#">Streaming-Room</a></li>
+          <li><a href="#">Venting-Mental-Health</a></li>
+          <li><a href="#">Music-Mute</a></li>
+          <li><a href="#">Raffle-Giveaway</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- Communication Bubbles -->
+    <section class="sidebar-section communication-bubbles">
+      <h3 class="sidebar-title">Communication Bubbles</h3>
+      <nav class="channel-list" role="navigation" aria-label="Voice Channels">
+        <ul>
+          <li><a href="#">Bubbles Hideaway</a></li>
+          <li><a href="#">Dirty Bubbles Lounge</a></li>
+          <li><a href="#">Sleeping Quarters</a></li>
+          <li><a href="#">Music</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- Game Text Channels -->
+    <section class="sidebar-section game-channels">
+      <h3 class="sidebar-title">Game Text Channels</h3>
+      <nav class="channel-list" role="navigation" aria-label="Game Text Channels">
+        <ul>
+          <li><a href="#">Outdated-LSPDFR-Install</a></li>
+          <li><a href="#">Outdated-7D2D-Install</a></li>
+          <li><a href="#">Minecraft</a></li>
+          <li><a href="#">Hitman-3-Shorts</a></li>
+          <li><a href="#">Website-down-arma3-unofficial</a></li>
+        </ul>
+      </nav>
+    </section>
+  </aside>
+
+  <!-- Main content -->
+  <main class="main-content">
+    <!-- Chat Area -->
+    <section class="chat-area">
+        <i class="fas fa-comment-alt"></i> Chat
+        <i class="fas fa-user-friends"></i> Members
+      <div class="chat-messages" id="chat-log">
+        <!-- Messages appear here -->
+      </div>
+      <input type="text" class="message-input" id="message-input" placeholder="Type a message..." />
+    </section>
+  </main>
+</div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
