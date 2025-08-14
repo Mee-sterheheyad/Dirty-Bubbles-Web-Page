@@ -297,3 +297,12 @@ h3.sidebar-title {
   height: auto;
 }
 
+.border-frame {
+  border: 8px solid #000;         /* Adjust border thickness and color */
+  padding: 20px;                  /* Adds space inside the border */
+  margin: 20px auto;              /* Center and space out */
+  max-width: 900px;               /* Adjust max width */
+  background-color: #0a0101;      /* Optional background */
+  border-radius: 10px;            /* Optional: rounded corners */
+  box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Optional: subtle shadow */
+}
